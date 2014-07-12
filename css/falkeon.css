@@ -1,0 +1,67 @@
+
+@font-face{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  src: 
+          url('fonts/helvetica-neue1.ttf') format('truetype'),
+          url('fonts/helvetica-condensed-light-li-1361523408.ttf') format('truetype');
+           
+    font-weight: normal;
+   font-style: normal;    
+}
+
+
+
+@font-face {
+	font-family: 'BAUHS93';
+	src: url('../fonts/BAUHS93.eot');
+	src: local('BAUHS93'), url('../fonts/BAUHS93.woff') format('woff'), url('../fonts/BAUHS93.ttf') format('truetype');
+}
+
+
+body{
+background-image: -webkit-linear-gradient(#333 0%, white 100%); 
+background-image: -moz-linear-gradient(#333 0%, white 100%); 
+background-image: -o-linear-gradient(#333 0%, white 100%); 
+background-image: linear-gradient(#333 0%, white 100%);"
+background-image: no-repeat;
+height: 800px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.masthead img {width: 25%}
+
+#navigation  {background-color: #161721; }
+#navigation ul li a {color: #fff; font-size: 120%; font-family: "helvetica-condensed-light-li"; font-weight: bolder}
+
+
+.nav-justified > li {
+  display: table-cell;
+  width: 25%;
+}
+
+.col-md-4-1{width:25%; float:left}
+.col-md-4-2{width:45%; float:left}
+.col-md-4-3{width:30%; float:left}
+
+#subheader {height: 300px}
+
+#subheader1  { margin-right: -100px; padding-right:  25px  }
+#subheader1 img {float : right; width: 100px; margin: 15px 0 0 0 }
+
+#subheader2  {overflow: hidden;  margin-left:  100px; padding-right:  -100px; padding-right: 0px;  padding-left: 0px; }
+#subheader2 img {width:105%; margin: 0px 0px 0px 0px;}
+
+
+#subheader3 {background-color: black; }
+
+#nav2 > li > a { color: black; font-size: 120%; font-family: "helvetica-condensed-light-li"; font-weight: bolder }
+#nav2 > li  { width:150px}
+
+
+#nav3  { color: white; f font-size: 120%; font-family: "helvetica-condensed-light-li"; font-weight: bolder }
+#nav3 > li > a { color: white }
+.nav-pills > li > a {
+  border-radius: 0px;
+}
+
+main1{}
+
